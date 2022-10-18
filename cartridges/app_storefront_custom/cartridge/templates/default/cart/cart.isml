@@ -75,7 +75,7 @@
                     <div class="row">
                         <isinclude template="cart/cartShippingMethodSelection" />
                     </div>
-                    <isinclude template="cart/cartTotals" /> 
+                    <isinclude template="cart/cartTotals" />
                     <div class="row">
                         <div class="col-12 checkout-continue">
                             <isinclude template="cart/checkoutButtons" />
@@ -92,5 +92,7 @@
     <div class="container">
         <isslot id="cart-recommendations-m" description="Recommended products" context="global" />
     </div>
-        ${pdict.myVariable} dsds
+    ${pdict.example}
+
+    <isif condition="${pdict.notes.length == 0}" > <h1>${Resource.msg('info.cart.user.nonotes','cart',null)}</h1> </isif>
 </isdecorate>
