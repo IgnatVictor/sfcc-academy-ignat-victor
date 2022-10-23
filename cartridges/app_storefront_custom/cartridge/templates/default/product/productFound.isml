@@ -1,5 +1,0 @@
-<isinclude url="${URLUtils.https('Product-Show')}"/>
-<isinclude url="${URLUtils.url('Tile-Show', 'pid', productID, 'swatches', true, 'ratings', true, 'showQuickView', false)}" />
-
-<isset name="productID" value="${pdict.myProduct.ID}" scope="page"/>
-${productID}
