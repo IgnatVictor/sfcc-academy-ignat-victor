@@ -24,7 +24,7 @@
  <isset name="discount" value="${require('*/cartridge/scripts/helpers/pricing')}" scope="page" />
 
         <isif condition="${product.price.list.decimalPrice > product.price.sales.decimalPrice}">
-            <b style="color: red">${Resource.msgf('tile.bestDeal', 'productTile', null, discount.bestDealMoney(product.price.list
+            <b class="bestDeal">${Resource.msgf('tile.bestDeal', 'productTile', null, discount.bestDealMoney(product.price.list
                                   .decimalPrice, product.price.sales.decimalPrice))}</b>
         </isif>
 
