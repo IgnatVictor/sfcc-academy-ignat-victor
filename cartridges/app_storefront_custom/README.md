@@ -1,8 +1,3 @@
-
-
-![ex2](https://user-images.githubusercontent.com/70142353/197826287-7fc8b83d-1dba-44fb-a9e2-8f52eec54740.jpg)
-
-
 Effort: Easy-Medium
 Deadline: 6h
 Difficulties/learning points:
@@ -14,6 +9,7 @@ Objective:
 Create a new template to be used in PDP that displays 4 products which belong to the same primary category as the current product and are sorted from 
 
 the lowest price to the highest.
+
 
 HINTS
 
